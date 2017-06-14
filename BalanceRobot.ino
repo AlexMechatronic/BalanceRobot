@@ -40,7 +40,7 @@ uint8_t offsetMotors = 76; //desde este valor de pwm se empiezan a mover los mot
 
 // 10% de error 20 es lo que se puede mover maximo
 const float Pb		  = 0.10;
-const float gradosNom = 20.0;
+const float gradosNom = 40.0;
 const float kpP1      = 1.0/(Pb * gradosNom);
 const float kiP1      = 0.005/(Pb * gradosNom)/10000.0;
 const float kdP1      = 0.005/(Pb * gradosNom);
